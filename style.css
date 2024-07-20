@@ -894,9 +894,6 @@ nav li span{
     
 }
 @media(max-width:350px){
-    .container{
-        background-position: -30rem;
-    }
     .container h3,h1,p{
         display: none;
     }
@@ -921,7 +918,7 @@ nav li span{
 }
 @media (max-width:500px)and (min-width:321px){
     .container{
-        background-position:-25rem;
+        /* background-position:-25rem; */
     }
     .container h1,p{
         display: none;
@@ -986,6 +983,9 @@ nav li span{
     }
 }
 @media (max-width:499px){
+    .container{
+        background-image: url(images/product-1.jpg);
+    }
     .insta-section{
         margin-top:1.5rem;
         margin-bottom: 1.5rem;
