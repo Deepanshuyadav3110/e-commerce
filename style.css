@@ -921,7 +921,7 @@ nav li span{
 }
 @media (max-width:500px)and (min-width:321px){
     .container{
-        background-image: url(images/banner-12.jpg);
+        background-image: url(images/banner-2.avif);
         /* background-position: center; */
         background-repeat: no-repeat;
         background-size: cover;
