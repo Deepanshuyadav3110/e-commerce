@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style Wear</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- effects css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- google font family  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <!-- cdn icon  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+
+
+
+    <!-- navigation bar -->
+    <nav >
+        <ul class="sidebar">
+            <li onclick= hideSideBar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="#"><i class="fa-solid fa-house"></i>Home</a></li>
+            <li><a href="#"><i class="fa-solid fa-circle-info"></i>About us</a></li>
+            <li><a href="#"><i class="fa-solid fa-user"></i>Contact us</a></li>
+            <li><a href="#"><i class="fa-solid fa-book"></i>Blog</a></li>
+            <li><a href="#"><i class="fa-solid fa-circle-user"></i>Login</a></li>
+            <li><a href="#"><i class="fa-solid fa-cart-shopping"></i>Cart</a></li>
+        </ul>
+        <ul>
+            <li><a href="#"><span>S</span>tyle <span>W</span>ear</a></li>
+            <li class="hideOnMobile"><a href="#"><i class="fa-solid fa-house"></i>Home</a></li>
+            <li class="hideOnMobile"><a href="#"><i class="fa-solid fa-circle-info"></i>About us</a></li>
+            <li class="hideOnMobile"><a href="#"><i class="fa-solid fa-user"></i>Contact us</a></li>
+            <li class="hideOnMobile"><a href="#"><i class="fa-solid fa-book"></i>Blog</a></li>
+            <li class="hideOnMobile"><a href="#"><i class="fa-solid fa-circle-user"></i>Login</a></li>
+            <li class="hideOnMobile"><a href="#"><i class="fa-solid fa-cart-shopping"></i>Cart</a></li>
+            <li onclick = showSideBar() class="menu-btn"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+    </nav>
+
+
+
+
+    <!-- main contain -->
+    <div class="container">
+        <h1>"Discover the joy of shopping with us"</h1>
+        <p>where quality meets convenience and style is just a click away!</p>
+        <h3>"Shop smart, live stylishly!"</h3>
+        <button class="btn">Shop Now &#8594;</button>
+    </div>
+
+
+
+
+    <!-- image-card corner -->
+    <div class="container-1" >
+        <div class="img-1" data-aos="zoom-in">
+            <h3>MEN COLLECTION</h3>
+            <button>Explore All&rarr;</button>
+        </div>
+        <div class="img-2" data-aos="zoom-in">
+            <h3>WOMEN COLLECTION</h3>
+            <button>Explore All&rarr;</button>
+        </div>
+        <div class="img-3" data-aos="zoom-in">
+            <h3>SPORTS COLLECTION</h3>
+            <button>Explore All&rarr;</button>
+        </div>
+    </div>
+
+
+
+    <!-- best seller -->
+    <div class="seller">
+        <h2 data-aos="zoom-in">BestSeller Products</h2>
+        <div class="products" data-aos="zoom-in">
+            <ul>
+                <li><a href="#">All</a></li>
+                <li><a href="#">Nike</a></li>
+                <li><a href="#">Adidas</a></li>
+                <li><a href="#">Puma</a></li>
+                <li><a href="#">Bata</a></li>
+                <li><a href="#">Apex</a></li>
+            </ul>
+        </div>
+        <div class="seller-img">
+            <div class="img-content" data-aos="zoom-in">
+                <div class="s-img-1 s-scale-img" data-aos="zoom-in">
+                    <span class="new-stock">New</span>
+                    <div class="svg-all">
+                        <div class="svg-1"><i class="fa-solid fa-cart-shopping"></i></div>
+                        <div class="svg-2"><i class="fa-solid fa-heart"></i></div>
+                        <div class="svg-3"><i class="fa-solid fa-eye"></i></div>
+                        <div class="svg-4"><i class="fa-solid fa-repeat"></i></div>
+                    </div>
+                </div>
+                <a href="" class="shoe-info">
+                    <P class="shoe-type">Men/Women</P>
+                    <p class="shoe-name">Running sneaker shoes</p>
+                    <p class="price">₹ 769/-</p>
+                    <p href="" class="btn-1">View More</p>
+                </a>
+            </div>
+            <div class="img-content" data-aos="zoom-in">
+                <div class="s-img-2 s-scale-img" data-aos="zoom-in">
+                    <span class="new-stock">Trending</span>
+                    <div class="svg-all">
+                        <div class="svg-1"><i class="fa-solid fa-cart-shopping"></i></div>
+                        <div class="svg-2"><i class="fa-solid fa-heart"></i></div>
+                        <div class="svg-3"><i class="fa-solid fa-eye"></i></div>
+                        <div class="svg-4"><i class="fa-solid fa-repeat"></i></div>
+                    </div>
+                </div>
+                <a href="" class="shoe-info">
+                    <P class="shoe-type">Men/Sports</P>
+                    <p class="shoe-name">Leather Mens Slipper</p>
+                    <p class="price">₹ 1199/-</p>
+                    <p href="" class="btn-1">View More</p>
+                </a>
+            </div>
+            <div class="img-content" data-aos="zoom-in">
+                <div class="s-img-3 s-scale-img" data-aos="zoom-in">
+                    <span class="new-stock">-25% off</span>
+                    <div class="svg-all">
+                        <div class="svg-1"><i class="fa-solid fa-cart-shopping"></i></div>
+                        <div class="svg-2"><i class="fa-solid fa-heart"></i></div>
+                        <div class="svg-3"><i class="fa-solid fa-eye"></i></div>
+                        <div class="svg-4"><i class="fa-solid fa-repeat"></i></div>
+                    </div>
+                </div>
+                <a href="" class="shoe-info">
+                    <P class="shoe-type">Men/Sports</P>
+                    <p class="shoe-name">Simple Fabric shoe</p>
+                    <p class="price">₹ 1099/-</p>
+                    <p href="" class="btn-1">View More</p>
+                </a>
+            </div>
+            <div class="img-content" data-aos="zoom-in">
+                <div class="s-img-4 s-scale-img" data-aos="zoom-in">
+                    <span class="new-stock">New</span>
+                    <div class="svg-all">
+                        <div class="svg-1"><i class="fa-solid fa-cart-shopping"></i></div>
+                        <div class="svg-2"><i class="fa-solid fa-heart"></i></div>
+                        <div class="svg-3"><i class="fa-solid fa-eye"></i></div>
+                        <div class="svg-4"><i class="fa-solid fa-repeat"></i></div>
+                    </div>
+                </div>
+                <a href="" class="shoe-info">
+                    <P class="shoe-type">Men/Women</P>
+                    <p class="shoe-name">Air Jordan 7 Retro</p>
+                    <p class="price">₹ 759/-</p>
+                    <p class="btn-1">View More</p>
+                </a>
+            </div>
+            <div class="img-content" data-aos="zoom-in">
+                <div class="s-img-5" data-aos="zoom-in">
+                    <span class="new-stock">-35% off</span>
+                    <div class="svg-all s-scale-img">
+                        <div class="svg-1"><i class="fa-solid fa-cart-shopping"></i></div>
+                        <div class="svg-2"><i class="fa-solid fa-heart"></i></div>
+                        <div class="svg-3"><i class="fa-solid fa-eye"></i></div>
+                        <div class="svg-4"><i class="fa-solid fa-repeat"></i></div>
+                    </div>
+                </div>
+                <a href="" class="shoe-info">
+                    <P class="shoe-type">Men/Women</P>
+                    <p class="shoe-name">Nike Air Max 270 SE</p>
+                    <p class="price">₹ 899/-</p>
+                    <p href="" class="btn-1">View More</p>
+                </a>
+            </div>
+            <div class="img-content" data-aos="zoom-in">
+                <div class="s-img-6" data-aos="zoom-in" >
+                    <span class="new-stock">choice</span>
+                    <div class="svg-all s-scale-img">
+                        <div class="svg-1"><i class="fa-solid fa-cart-shopping"></i></div>
+                        <div class="svg-2"><i class="fa-solid fa-heart"></i></div>
+                        <div class="svg-3"><i class="fa-solid fa-eye"></i></div>
+                        <div class="svg-4"><i class="fa-solid fa-repeat"></i></div>
+                    </div>
+                </div>
+                <a href="" class="shoe-info">
+                    <P class="shoe-type">Men/Women</P>
+                    <p class="shoe-name">Adidas Sneakers Shoes</p>
+                    <p class="price">₹ 699/-</p>
+                    <p href="" class="btn-1">View More</p>
+                </a>
+            </div>
+            <div class="img-content" data-aos="zoom-in">
+                <div class="s-img-7" data-aos="zoom-in" >
+                    <span class="new-stock">-22% off</span>
+                    <div class="svg-all s-scale-img">
+                        <div class="svg-1"><i class="fa-solid fa-cart-shopping"></i></div>
+                        <div class="svg-2"><i class="fa-solid fa-heart"></i></div>
+                        <div class="svg-3"><i class="fa-solid fa-eye"></i></div>
+                        <div class="svg-4"><i class="fa-solid fa-repeat"></i></div>
+                    </div>
+                </div>
+                <a href="" class="shoe-info">
+                    <P class="shoe-type">Men/Sports</P>
+                    <p class="shoe-name">Nike Basketball Shoes</p>
+                    <p class="price">₹ 999/-</p>
+                    <p href="" class="btn-1">View More</p>
+                </a>
+            </div>
+            <div class="img-content" data-aos="zoom-in">
+                <div class="s-img-8" data-aos="zoom-in">
+                    <span class="new-stock">New</span>
+                    <div class="svg-all s-scale-img">
+                        <div class="svg-1"><i class="fa-solid fa-cart-shopping"></i></div>
+                        <div class="svg-2"><i class="fa-solid fa-heart"></i></div>
+                        <div class="svg-3"><i class="fa-solid fa-eye"></i></div>
+                        <div class="svg-4"><i class="fa-solid fa-repeat"></i></div>
+                    </div>
+                </div>
+                <a href="" class="shoe-info">
+                    <P class="shoe-type">Men/Women</P>
+                    <p class="shoe-name">Simple Fabric shoes</p>
+                    <p class="price">₹ 599/-</p>
+                    <p href="" class="btn-1">View More</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- template-banner -->
+    <div class="template-banner">
+        <div class="template-img-1" data-aos="zoom-in">
+            <p class="Adidas">Adidas Shoes</p>
+            <h3>The Summer Sale <br>Off 50%</h3>
+            <a href="#">Shop Now &#8594;</a>
+        </div>
+        <div class="template-img-2" data-aos="zoom-in">
+            <p class="Nike">Nike Shoes</p>
+            <h3>Makes Yourself <br>Keep sporty</h3>
+            <a href="#">Shop Now &#8594;</a>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- services -->
+    <div class="services">
+        <div class="service-item">
+            <div class="service-img">
+                <img src="images/service-1.png" alt="">
+            </div>
+            <div class="service-content">
+                <h3>FREE SHIPING</h3>
+                <h6>All orders over <span>$150</span></h6>
+            </div>
+        </div>
+        <div class="service-item">
+            <div class="service-img">
+                <img src="images/service-2.png" alt="">
+            </div>
+            <div class="service-content">
+                <h3>SECURE PAYS</h3>
+                <h6>100% secure payment</h6>
+            </div>
+        </div>
+        <div class="service-item">
+            <div class="service-img">
+                <img src="images/service-3.png" alt="">
+            </div>
+            <div class="service-content">
+                <h3>FREE RETURN</h3>
+                <h6>Money retrun in 30 days</h6>
+            </div>
+        </div>
+        <div class="service-item">
+            <div class="service-img">
+                <img src="images/service-4.png" alt="">
+            </div>
+            <div class="service-content">
+                <h3>25/7 SUPPORT</h3>
+                <h6>Get auick support</h6>
+            </div>
+        </div>
+    </div>
+
+    <!-- insta section -->
+    <div class="insta-section">
+        <div class="insta-1 insta-common">
+           <a href=""> <i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <div class="insta-2 insta-common">
+            <a href=""> <i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <div class="insta-3 insta-common">
+            <a href=""> <i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <div class="insta-4 insta-common">
+            <a href=""> <i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <div class="insta-5 insta-common">
+            <a href=""> <i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <div class="insta-6 insta-common">
+            <a href=""> <i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <div class="insta-7 insta-common">
+            <a href=""> <i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <div class="insta-8 insta-common">
+            <a href=""> <i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </div>
+
+
+
+
+    <hr class="hori-row">
+
+
+    <!-- info-section -->
+     <div class="info-section">
+        <div class="contact-us">
+            <h3>Contact Us</h3>
+            <div class="contact-items">
+                <a href=""><i class="fa-solid fa-location-dot"></i>123029, Mahendragarh Haryana</a>
+                <a href=""><i class="fa-solid fa-phone"></i>+91- 9416603445</a>
+                <a href=""><i class="fa-solid fa-envelope"></i>deep@gamil.com</a>
+            </div>
+        </div>
+        <div class="my-account">
+            <h3>My Account</h3>
+            <div class="account-items">
+                <a href=""><i class="fa-solid fa-angle-right"></i>My Account</a>
+                <a href=""><i class="fa-solid fa-angle-right"></i>View Cart</a>
+                <a href=""><i class="fa-solid fa-angle-right"></i>Wishlist</a>
+                <a href=""><i class="fa-solid fa-angle-right"></i>Compare</a>
+                <a href=""><i class="fa-solid fa-angle-right"></i>New Product</a>
+            </div>
+        </div>
+        <div class="opening-time">
+            <h3>Opening Time</h3>
+            <div class="time-items">
+                <h5>Mon-Tue: <span>8AM-10PM</span></h5>
+                <h5>Wed: <span>7AM-9PM</span> </h5>
+                <h5>Thu: <span>8AM-9PM</span></h5>
+                <h5>Fri: <span>10AM-10PM</span></h5>
+                <h5>Sat: <span>9AM-9PM</span></h5>
+                <h5>Sun: <span>Closed</span></h5>
+            </div>
+        </div>
+        <div class="newsletter">
+            <h3>NewsLetter</h3>
+            <div class="letter-item">
+                <h5>For partnship and join us suscribe with your email.</h5>
+                <div class="search-container">
+                    <input type="search" id="search" name="search" placeholder="Email Address">
+                    <button type="submit">Suscribe!</button>
+                </div>
+            </div>
+        </div>
+     </div>
+    
+    
+    <!-- footer -->
+     <div class="footer">
+        <h4>&copy; 2024 Deepanhsuyadav. All Rights Reserved</h4>
+     </div>
+
+
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 120,
+            duration:600,
+        })
+      </script>
+</body>
+</html>
