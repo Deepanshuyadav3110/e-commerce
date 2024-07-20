@@ -895,7 +895,7 @@ nav li span{
 }
 @media(max-width:350px){
     .container{
-        background-position: -28rem;
+        background-position: -30rem;
     }
     .container h3,h1,p{
         display: none;
