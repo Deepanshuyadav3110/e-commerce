@@ -921,11 +921,11 @@ nav li span{
 }
 @media (max-width:500px)and (min-width:321px){
     .container{
-        background-image: url(images/banner-4.webp);
-        background-position: center;
+        background-image: url(images/banner-.jpg);
+        /* background-position: center; */
         background-repeat: no-repeat;
         background-size: cover;
-        /* background-position:-25rem; */
+        background-position:-8rem;
     }
     .container h1,p{
         display: none;
